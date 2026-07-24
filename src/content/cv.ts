@@ -133,9 +133,8 @@ export const cvContent: CvContentByLocale = {
                     context:
                         "Alocado na Claro Brasil como SAP Commerce Developer",
                     highlights: [
-                        "Atua no desenvolvimento backend Java em uma operação de e-commerce de alta complexidade baseada em SAP Commerce Cloud (Hybris).",
-                        "Contribui para a evolução e a estabilidade da plataforma, com foco em arquitetura, integrações e performance em ambiente crítico.",
-                        "Colabora com equipes multidisciplinares na análise de requisitos técnicos e na implementação de soluções alinhadas às necessidades do produto e do negócio.",
+                        "Desenvolve soluções backend Java para uma operação de e-commerce baseada em SAP Commerce Cloud (Hybris).",
+                        "Contribui para a evolução da plataforma, com foco em arquitetura, integrações, performance e estabilidade.",
                     ],
                 },
                 {
@@ -145,10 +144,7 @@ export const cvContent: CvContentByLocale = {
                     highlights: [
                         "Desenvolveu novas funcionalidades e sustentou plataformas SAP Commerce em produção para os projetos Amway e Alkosto.",
                         "Participou da modernização da plataforma Amway, migrando o Java 8 para o Java 17 e o SAP Commerce da versão 5.4 para a 22.05.",
-                        "Implementou APIs REST para integração com serviços externos, novos métodos de pagamento e integrações com gateways de pagamento.",
-                        "Desenvolveu uma funcionalidade de geração de relatórios de pontuação integrada ao Amazon S3.",
-                        "Atuou em uma squad multidisciplinar internacional, utilizando Scrum e refinando especificações com base em requisitos técnicos.",
-                        "Realizou correções e melhorias em código legado, além de produzir e manter documentação de software.",
+                        "Implementou APIs REST, integrações com gateways de pagamento e uma funcionalidade de relatórios integrada ao Amazon S3.",
                     ],
                 },
             ],
@@ -276,7 +272,7 @@ export const cvContent: CvContentByLocale = {
                 },
                 {
                     name: "Inglês",
-                    level: "Proficiência profissional",
+                    level: "Intermediário",
                 },
             ],
         },
@@ -413,9 +409,8 @@ export const cvContent: CvContentByLocale = {
                     context:
                         "Assigned to Claro Brasil as a SAP Commerce Developer",
                     highlights: [
-                        "Develops Java backend solutions for a high-complexity e-commerce operation built on SAP Commerce Cloud (Hybris).",
-                        "Contributes to platform evolution and stability, focusing on architecture, integrations, and performance in a critical environment.",
-                        "Collaborates with multidisciplinary teams to analyze technical requirements and deliver solutions aligned with product and business needs.",
+                        "Develops Java backend solutions for an e-commerce operation built on SAP Commerce Cloud (Hybris).",
+                        "Contributes to platform evolution, focusing on architecture, integrations, performance, and stability.",
                     ],
                 },
                 {
@@ -425,10 +420,7 @@ export const cvContent: CvContentByLocale = {
                     highlights: [
                         "Developed new features and maintained production SAP Commerce platforms for the Amway and Alkosto projects.",
                         "Helped modernize the Amway platform by migrating Java 8 to Java 17 and SAP Commerce 5.4 to version 22.05.",
-                        "Implemented REST APIs for external service integrations, new payment methods, and payment gateway integrations.",
-                        "Developed a score-reporting feature integrated with Amazon S3.",
-                        "Worked in an international multidisciplinary squad using Scrum and refined specifications based on technical requirements.",
-                        "Fixed and improved legacy code while creating and maintaining software documentation.",
+                        "Implemented REST APIs, payment gateway integrations, and a reporting feature integrated with Amazon S3.",
                     ],
                 },
             ],
@@ -556,7 +548,7 @@ export const cvContent: CvContentByLocale = {
                 },
                 {
                     name: "English",
-                    level: "Professional working proficiency",
+                    level: "Intermediate",
                 },
             ],
         },
