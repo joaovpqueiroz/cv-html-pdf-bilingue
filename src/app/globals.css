@@ -129,6 +129,10 @@ button {
   text-decoration: underline;
 }
 
+.print-link-url {
+  display: none;
+}
+
 .cv-section {
   padding-top: 28px;
 }
@@ -682,6 +686,24 @@ button {
   .skill-guide,
   .skill-tooltip {
     display: none !important;
+  }
+
+  .cv-contact a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .print-link-url {
+    display: inline;
+    margin-left: 4px;
+  }
+
+  .print-link-url::before {
+    content: "(";
+  }
+
+  .print-link-url::after {
+    content: ")";
   }
 
   .skill-categories {

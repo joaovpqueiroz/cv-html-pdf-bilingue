@@ -5,6 +5,13 @@ interface CvHeaderProps {
 }
 
 export function CvHeader({ header }: CvHeaderProps) {
+    function formatPrintUrl(href: string) {
+        return href
+            .replace(/^https?:\/\//, "")
+            .replace(/^www\./, "")
+            .replace(/\/$/, "");
+    }
+
     return (
         <header className="cv-header">
             <div className="cv-header-main">
@@ -34,6 +41,9 @@ export function CvHeader({ header }: CvHeaderProps) {
                                 rel="noreferrer"
                             >
                                 {link.label}
+                                <span className="print-link-url">
+                                    {formatPrintUrl(link.href)}
+                                </span>
                             </a>
                         ),
                 )}
